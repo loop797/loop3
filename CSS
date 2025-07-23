@@ -1,16 +1,89 @@
-/* تصميم مبدئي للخيارات */
+/* التصميم العام */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* الشعار */
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+header img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+/* شريط التنقل */
+.navbar {
+  text-align: center;
+  margin-top: 30px;
+}
+
 .nav-option {
-  padding: 10px 20px;
+  display: inline-block;
+  padding: 12px 25px;
   font-size: 18px;
-  background-color: #1a1a1a; /* خلفية داكنة */
-  color: white;
+  background-color: #333;
+  margin: 5px;
   border-radius: 8px;
-  transition: all 0.3s ease; /* لتطبيق التأثيرات بسلاسة */
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 /* تأثير التكبير والنور عند مرور الماوس */
 .nav-option:hover {
-  font-size: 20px; /* تكبير النص */
-  transform: scale(1.1); /* تكبير العنصر */
-  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); /* إضافة تأثير النور حول العنصر */
+  font-size: 20px;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+}
+
+/* الأزرار */
+.buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.download-btn, .discord-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #7289DA;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover, .discord-btn:hover {
+  background-color: #5a6d8e;
+}
+
+/* تحديثات */
+.updates {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.updates ul {
+  list-style: none;
+  padding: 0;
+}
+
+.updates li {
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* تذييل الصفحة */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  margin-top: 40px;
 }
