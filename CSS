@@ -1,0 +1,16 @@
+/* تصميم مبدئي للخيارات */
+.nav-option {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #1a1a1a; /* خلفية داكنة */
+  color: white;
+  border-radius: 8px;
+  transition: all 0.3s ease; /* لتطبيق التأثيرات بسلاسة */
+}
+
+/* تأثير التكبير والنور عند مرور الماوس */
+.nav-option:hover {
+  font-size: 20px; /* تكبير النص */
+  transform: scale(1.1); /* تكبير العنصر */
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); /* إضافة تأثير النور حول العنصر */
+}
